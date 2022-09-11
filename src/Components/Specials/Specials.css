@@ -28,3 +28,11 @@
 .sp-field:focus {
   outline: none;
 }
+
+.special-img {
+  height: 150px;
+  width: 230px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 23px;
+}

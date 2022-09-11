@@ -98,7 +98,7 @@ function Specials(props) {
               <Image
                 src={food.img}
                 alt="Illustration"
-                className="food-img mt-2 mb-2"
+                className="special-img mt-2 mb-2"
               ></Image>
             )}
             {edit == food.id && (
