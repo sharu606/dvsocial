@@ -1,0 +1,46 @@
+:root {
+  --violet: #bd92e3;
+  --white: rgb(252, 252, 252);
+}
+
+.right, .left {
+  background-color: var(--violet);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left {
+    background-color: var(--white);
+}
+
+.home-img {
+  height: 40vh;
+}
+
+.ip-field {
+  border-radius: 16px;
+  border: var(--violet) 2px solid;
+  padding: 3px;
+  width: 300px;
+}
+
+.ip-field:focus {
+  outline: none;
+}
+
+.ip-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+}
+
+.error {
+  position: absolute;
+  bottom: 0;
+  width: 350px;
+}

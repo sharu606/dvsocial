@@ -1,0 +1,30 @@
+.special-card {
+  width: 45vw;
+  height: fit-content;
+  border: 1px solid #ccc;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: var(--white);
+  color: rgb(83, 83, 83);
+  position: relative;
+}
+
+.special-desc {
+  word-wrap: break-word;
+  font-size: 0.8rem;
+  max-width: 80%;
+}
+
+.sp-field {
+  width: 80%;
+  height: fit-content;
+  outline: none;
+  border-radius: 13px;
+}
+
+.sp-field:focus {
+  outline: none;
+}

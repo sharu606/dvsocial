@@ -1,0 +1,44 @@
+.reviews {
+  min-height: 78vh;
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #ccc;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  flex-flow: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.review-hdg {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: rgb(88, 87, 87);
+}
+
+.review {
+  border: 2px solid #ccc;
+  border-radius: 23px;
+  width: 95%;
+}
+
+.review-icon {
+  color: rgb(88, 87, 87);
+  background-color: rgb(213, 213, 213);
+  border-radius: 100%;
+  font-size: 35px;
+}
+
+.review-text {
+  min-width: 42%;
+}
+
+.color {
+  color: rgb(88, 87, 87);
+  font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.button {
+    width: 180px;
+    height: 40px;
+    border: 0px;
+    background-color: var(--violet);
+    color: var(--white);
+    border-radius: 18px;
+    transition-duration: 0.3s;
+  }
+  
+  .button:hover {
+    filter: brightness(96%);
+  }

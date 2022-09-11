@@ -1,0 +1,105 @@
+.menu-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-img {
+  height: 400px;
+}
+
+.food-card {
+  width: 12rem;
+  height: 17rem;
+  border: 1px solid #ccc;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: var(--white);
+  color: rgb(83, 83, 83);
+  position: relative;
+}
+
+.food-img {
+  height: 150px;
+  width: 230px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 23px;
+}
+
+.food-desc {
+  width: 100%;
+  word-wrap: break-word;
+  font-size: 0.8rem;
+}
+
+.food-name {
+    color: rgb(72, 72, 72);
+    font-weight: 600;
+}
+
+.food-btn {
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+.foods {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: space-around;
+}
+
+.menu-left {
+  display: flex;
+  height: 91vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-dish {
+  width: 12rem;
+  height: 17rem;
+  border: 2px dashed rgb(205, 203, 203);
+  border-radius: 23px;
+  color: rgb(88, 87, 87);
+  background-color: rgb(243, 242, 242);
+  transition-duration: 0.4s;
+}
+
+.add-dish:hover {
+  background-color: rgb(232, 231, 231);
+}
+
+.food-hdg {
+  color: rgb(88, 87, 87);
+  text-align: center;
+}
+
+.delete-icon, .stop-icon {
+  position: absolute;
+  right: 0px;
+  top: -18px;
+  background-color: rgb(209, 208, 208);
+  height: 35px;
+  width: 35px;
+  border-radius: 95%;
+}
+
+.stop-icon {
+  right: 40px;
+  top: -18px;
+}
+
+.delete-icon:hover, .stop-icon:hover {
+  cursor: pointer;
+}
