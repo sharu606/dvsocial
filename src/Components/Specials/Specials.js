@@ -25,7 +25,7 @@ function Specials(props) {
     setFile("");
   }
 
-  async function save(id) {
+  async function save(id, ur) {
     if (file) {
       const storageRef = ref(storage, file.name);
       const uploadTask = uploadBytesResumable(storageRef, file);
@@ -48,6 +48,7 @@ function Specials(props) {
       setDoc(doc(db, "Specials", id), {
         name: name,
         description: desc,
+        img: ur
       });
     }
     setEdit("");
@@ -123,7 +124,7 @@ function Specials(props) {
               ></textarea>
             )}
             {edit == food.id && (
-              <Button className="mt-3" onClick={() => save(food.id)}>
+              <Button className="mt-3" onClick={() => save(food.id, food.img)}>
                 Save
               </Button>
             )}
