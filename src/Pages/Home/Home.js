@@ -22,7 +22,7 @@ function Home() {
   return (
     <div className="home">
       <Row className="m-0 p-0">
-        <Col className="left">
+        <Col className="left" xs={12} md={6}>
           <Image src={home} alt="animation image" className="home-img"></Image>
           <Button className="m-2" onClick={leftLogin}>
             Login
